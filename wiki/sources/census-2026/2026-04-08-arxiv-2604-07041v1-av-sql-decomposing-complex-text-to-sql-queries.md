@@ -1,0 +1,29 @@
+---
+type: source
+source_type: arxiv
+title: "AV-SQL: Decomposing Complex Text-to-SQL Queries with Agentic Views"
+authors: Minh Tam Pham, Trinh Pham, Tong Chen, Hongzhi Yin et al.
+url: https://arxiv.org/abs/2604.07041v1
+date: 2026-04-08
+ingested: 2026-06-21
+depth: abstract
+auto: true
+score: 12
+primary: cs.DB
+tags: [data-query-agents, agent-evaluation, arxiv, auto-ingested]
+---
+
+# AV-SQL: Decomposing Complex Text-to-SQL Queries with Agentic Views
+
+**arXiv:** [2604.07041v1](https://arxiv.org/abs/2604.07041v1) · 2026-04-08 · cs.DB
+**Authors:** Minh Tam Pham, Trinh Pham, Tong Chen, Hongzhi Yin et al.
+
+> Auto-ingested from abstract (not full-text). Concept/entity links are keyword-derived.
+
+## Abstract
+Text-to-SQL is the task of translating natural language queries into executable SQL for a given database, enabling non-expert users to access structured data without writing SQL manually. Despite rapid advances driven by large language models (LLMs), existing approaches still struggle with complex queries in real-world settings, where database schemas are large and questions require multi-step reasoning over many interrelated tables. In such cases, providing the full schema often exceeds the context window, while one-shot generation frequently produces non-executable SQL due to syntax errors and incorrect schema linking. To address these challenges, we introduce AV-SQL, a framework that decomposes complex Text-to-SQL into a pipeline of specialized LLM agents. Central to AV-SQL is the concept of agentic views: agent-generated Common Table Expressions (CTEs) that encapsulate intermediate query logic and filter relevant schema elements from large schemas. AV-SQL operates in three stages: (1) a rewriter agent compresses and clarifies the input query; (2) a view generator agent processes schema chunks to produce agentic views; and (3) a planner, generator, and revisor agent collaboratively compose these views into the final SQL query. Extensive experiments show that AV-SQL achieves 70.38% execution accuracy on the challenging Spider 2.0 benchmark, outperforming state-of-the-art baselines, while remaining competitive on standard datasets with 85.59% on Spider, 72.16% on BIRD and 63.78% on KaggleDBQA. Our source code is available at https://github.com/pminhtam/AV-SQL.
+
+## Graph
+- **Concepts:** [[data-query-agents|Data-query agents]] · [[agent-evaluation|Agent evaluation]]
+- **Entities:** [[bird-benchmark]] · [[spider-benchmark]]
+- **Census record:** `raw/arxiv/2026-census/census-2026.jsonl` (id 2604.07041v1)

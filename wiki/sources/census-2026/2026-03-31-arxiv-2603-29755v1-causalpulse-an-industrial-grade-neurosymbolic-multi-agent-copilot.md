@@ -1,0 +1,28 @@
+---
+type: source
+source_type: arxiv
+title: "CausalPulse: An Industrial-Grade Neurosymbolic Multi-Agent Copilot for Causal Diagnostics in Smart Manufacturing"
+authors: Chathurangi Shyalika, Utkarshani Jaimini, Cory Henson, Amit Sheth
+url: https://arxiv.org/abs/2603.29755v1
+date: 2026-03-31
+ingested: 2026-06-21
+depth: abstract
+auto: true
+score: 21
+primary: cs.AI
+tags: [clinical-agents, human-agent-interaction, agent-reliability, tool-use, multi-agent-systems, arxiv, auto-ingested]
+---
+
+# CausalPulse: An Industrial-Grade Neurosymbolic Multi-Agent Copilot for Causal Diagnostics in Smart Manufacturing
+
+**arXiv:** [2603.29755v1](https://arxiv.org/abs/2603.29755v1) · 2026-03-31 · cs.AI
+**Authors:** Chathurangi Shyalika, Utkarshani Jaimini, Cory Henson, Amit Sheth
+
+> Auto-ingested from abstract (not full-text). Concept/entity links are keyword-derived.
+
+## Abstract
+Modern manufacturing environments demand real-time, trustworthy, and interpretable root-cause insights to sustain productivity and quality. Traditional analytics pipelines often treat anomaly detection, causal inference, and root-cause analysis as isolated stages, limiting scalability and explainability. In this work, we present CausalPulse, an industry-grade multi-agent copilot that automates causal diagnostics in smart manufacturing. It unifies anomaly detection, causal discovery, and reasoning through a neurosymbolic architecture built on standardized agentic protocols. CausalPulse is being deployed in a Robert Bosch manufacturing plant, integrating seamlessly with existing monitoring workflows and supporting real-time operation at production scale. Evaluations on both public (Future Factories) and proprietary (Planar Sensor Element) datasets show high reliability, achieving overall success rates of 98.0% and 98.73%. Per-criterion success rates reached 98.75% for planning and tool use, 97.3% for self-reflection, and 99.2% for collaboration. Runtime experiments report end-to-end latency of 50-60s per diagnostic workflow with near-linear scalability (R^2=0.97), confirming real-time readiness. Comparison with existing industrial copilots highlights distinct advantages in modularity, extensibility, and deployment maturity. These results demonstrate how CausalPulse's modular, human-in-the-loop design enables reliable, interpretable, and production-ready automation for next-generation manufacturing.
+
+## Graph
+- **Concepts:** [[clinical-agents|Clinical agents]] · [[human-agent-interaction|Human-agent interaction]] · [[agent-reliability|Agent reliability]] · [[tool-use|Tool use]] · [[multi-agent-systems|Multi-agent systems]]
+- **Census record:** `raw/arxiv/2026-census/census-2026.jsonl` (id 2603.29755v1)

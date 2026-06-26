@@ -1,0 +1,29 @@
+---
+type: source
+source_type: arxiv
+title: "Cognitively Diverse Multiple-Choice Question Generation: A Hybrid Multi-Agent Framework with Large Language Models"
+authors: Yu Tian, Linh Huynh, Katerina Christhilf, Shubham Chakraborty et al.
+url: https://arxiv.org/abs/2602.03704v1
+date: 2026-02-03
+ingested: 2026-06-21
+depth: abstract
+auto: true
+score: 22
+primary: cs.CL
+tags: [agent-reliability, multi-agent-systems, arxiv, auto-ingested]
+---
+
+# Cognitively Diverse Multiple-Choice Question Generation: A Hybrid Multi-Agent Framework with Large Language Models
+
+**arXiv:** [2602.03704v1](https://arxiv.org/abs/2602.03704v1) · 2026-02-03 · cs.CL
+**Authors:** Yu Tian, Linh Huynh, Katerina Christhilf, Shubham Chakraborty et al.
+
+> Auto-ingested from abstract (not full-text). Concept/entity links are keyword-derived.
+
+## Abstract
+Recent advances in large language models (LLMs) have made automated multiple-choice question (MCQ) generation increasingly feasible; however, reliably producing items that satisfy controlled cognitive demands remains a challenge. To address this gap, we introduce ReQUESTA, a hybrid, multi-agent framework for generating cognitively diverse MCQs that systematically target text-based, inferential, and main idea comprehension. ReQUESTA decomposes MCQ authoring into specialized subtasks and coordinates LLM-powered agents with rule-based components to support planning, controlled generation, iterative evaluation, and post-processing. We evaluated the framework in a large-scale reading comprehension study using academic expository texts, comparing ReQUESTA-generated MCQs with those produced by a single-pass GPT-5 zero-shot baseline. Psychometric analyses of learner responses assessed item difficulty and discrimination, while expert raters evaluated question quality across multiple dimensions, including topic relevance and distractor quality. Results showed that ReQUESTA-generated items were consistently more challenging, more discriminative, and more strongly aligned with overall reading comprehension performance. Expert evaluations further indicated stronger alignment with central concepts and superior distractor linguistic consistency and semantic plausibility, particularly for inferential questions. These findings demonstrate that hybrid, agentic orchestration can systematically improve the reliability and controllability of LLM-based generation, highlighting workflow design as a key lever for structured artifact generation beyond single-pass prompting.
+
+## Graph
+- **Concepts:** [[agent-reliability|Agent reliability]] · [[multi-agent-systems|Multi-agent systems]]
+- **Entities:** [[gpt-5]]
+- **Census record:** `raw/arxiv/2026-census/census-2026.jsonl` (id 2602.03704v1)

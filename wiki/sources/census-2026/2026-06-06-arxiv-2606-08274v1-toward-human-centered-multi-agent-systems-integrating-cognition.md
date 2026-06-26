@@ -1,0 +1,28 @@
+---
+type: source
+source_type: arxiv
+title: "Toward Human-Centered Multi-Agent Systems: Integrating Cognition, Culture, Values, and Cooperation in AI Agents"
+authors: Safia Baloch, Rahemeen Khan
+url: https://arxiv.org/abs/2606.08274v1
+date: 2026-06-06
+ingested: 2026-06-21
+depth: abstract
+auto: true
+score: 22
+primary: cs.MA
+tags: [human-agent-interaction, tool-use, multi-agent-systems, agent-evaluation, arxiv, auto-ingested]
+---
+
+# Toward Human-Centered Multi-Agent Systems: Integrating Cognition, Culture, Values, and Cooperation in AI Agents
+
+**arXiv:** [2606.08274v1](https://arxiv.org/abs/2606.08274v1) · 2026-06-06 · cs.MA
+**Authors:** Safia Baloch, Rahemeen Khan
+
+> Auto-ingested from abstract (not full-text). Concept/entity links are keyword-derived.
+
+## Abstract
+The emergence of large language model (LLM)-based agents and multi-agent systems has enabled a shift from narrow task automation to more autonomous decision-making. Despite progress in language generation, planning, tool use, and coordination, most agents still treat intelligence as prediction, optimization, and task completion. Human environments are social and normative, where people reason under bounded rationality, communicate in culturally situated language, and make decisions guided by values, beliefs, trust, and social norms. This survey argues that future AI agents, especially those acting on behalf of humans, must move beyond task competence toward human-centered capabilities. We review research across six areas: (1) evolution of intelligent agents, (2) human cognition and decision-making, (3) language, culture, and social context, (4) human values and belief systems, (5) human-agent collaboration, and (6) multi-agent coordination and modeling of human characteristics. We synthesize work from cognitive science, sociolinguistics, computational social science, and AI alignment, along with recent advances in LLM agents, cultural alignment benchmarks, preference learning, explainability, and agent societies. We identify a key gap: existing systems do not provide a unified framework integrating cognition, culture, values, and social behavior into autonomous agents. We conclude with directions for building culturally aware, value-aligned, cognitively grounded, and cooperative multi-agent systems.
+
+## Graph
+- **Concepts:** [[human-agent-interaction|Human-agent interaction]] · [[tool-use|Tool use]] · [[multi-agent-systems|Multi-agent systems]] · [[agent-evaluation|Agent evaluation]]
+- **Census record:** `raw/arxiv/2026-census/census-2026.jsonl` (id 2606.08274v1)

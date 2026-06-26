@@ -1,0 +1,28 @@
+---
+type: source
+source_type: arxiv
+title: "FlyAOC: Evaluating Agentic Ontology Curation of Drosophila Scientific Knowledge Bases"
+authors: Xingjian Zhang, Sophia Moylan, Ziyang Xiong, Qiaozhu Mei et al.
+url: https://arxiv.org/abs/2602.09163v1
+date: 2026-02-09
+ingested: 2026-06-21
+depth: abstract
+auto: true
+score: 15
+primary: cs.AI
+tags: [knowledge-graph, agentic-rag, multi-agent-systems, agent-evaluation, arxiv, auto-ingested]
+---
+
+# FlyAOC: Evaluating Agentic Ontology Curation of Drosophila Scientific Knowledge Bases
+
+**arXiv:** [2602.09163v1](https://arxiv.org/abs/2602.09163v1) · 2026-02-09 · cs.AI
+**Authors:** Xingjian Zhang, Sophia Moylan, Ziyang Xiong, Qiaozhu Mei et al.
+
+> Auto-ingested from abstract (not full-text). Concept/entity links are keyword-derived.
+
+## Abstract
+Scientific knowledge bases accelerate discovery by curating findings from primary literature into structured, queryable formats for both human researchers and emerging AI systems. Maintaining these resources requires expert curators to search relevant papers, reconcile evidence across documents, and produce ontology-grounded annotations - a workflow that existing benchmarks, focused on isolated subtasks like named entity recognition or relation extraction, do not capture. We present FlyBench to evaluate AI agents on end-to-end agentic ontology curation from scientific literature. Given only a gene symbol, agents must search and read from a corpus of 16,898 full-text papers to produce structured annotations: Gene Ontology terms describing function, expression patterns, and historical synonyms linking decades of nomenclature. The benchmark includes 7,397 expert-curated annotations across 100 genes drawn from FlyBase, the Drosophila (fruit fly) knowledge base. We evaluate four baseline agent architectures: memorization, fixed pipeline, single-agent, and multi-agent. We find that architectural choices significantly impact performance, with multi-agent designs outperforming simpler alternatives, yet scaling backbone models yields diminishing returns. All baselines leave substantial room for improvement. Our analysis surfaces several findings to guide future development; for example, agents primarily use retrieval to confirm parametric knowledge rather than discover new information. We hope FlyBench will drive progress on retrieval-augmented scientific reasoning, a capability with broad applications across scientific domains.
+
+## Graph
+- **Concepts:** [[knowledge-graph|Knowledge graphs]] · [[agentic-rag|Agentic RAG]] · [[multi-agent-systems|Multi-agent systems]] · [[agent-evaluation|Agent evaluation]]
+- **Census record:** `raw/arxiv/2026-census/census-2026.jsonl` (id 2602.09163v1)

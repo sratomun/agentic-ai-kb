@@ -1,0 +1,11 @@
+# RAW — Claude Code Hits Different (Nathan Lambert, Interconnects)
+Source: https://www.interconnects.ai/p/claude-code-hits-different · 2026-01-09 · captured 2026-06-22 · channel: blog
+
+- Argues coding agents crossed "a meaningful threshold" with Claude Code + Opus 4.5 — a real step change after 6-9 months where Codex and Claude traded the lead. Endorses Sergey Karayev's framing: software creation moving "from an artisanal, craftsman activity to a true industrial process." Translation: "Software is becoming free and human design, specification, and entrepreneurship is the only limiting factor."
+- Odd detail: Opus 4.5 released Nov 24 2025 but the Claude Code performance jump felt like it came weeks later — "I wouldn't be surprised if a small product change unlocked massive real (or perceived) gains."
+- The product, not just the model, is where the magic is: compares Anthropic's hardware/software integration to Apple. "This sort of magical experience is not one I expect to be only buildable by Anthropic — they're just the first to get there."
+- Power shift: favors small orgs / startups (like Interconnects) that can "build from scratch in new repositories designed for AI agents." Models are far easier when building from scratch than landing features in production codebases with quality standards. "An era to be first defined by bespoke software rather than a handful of mega-products."
+- Key under-noticed point: Claude Code isn't just for software — "it can control your entire computer" (email, calendars, decision making, notes). The CLI is "an open door into the digital world."
+- On continual learning: this whole-computer interface is "the beginnings of current AI models feeling like they're continually learning" — when Claude errs, "dump a reminder into CLAUDE.md, it's as simple as that." Quotes Doug O'Laughlin: "Claude with a 100X context window and 100X the speed will be AGI." Predicts first 10X of both by end of 2026 with compute buildout.
+- "Software engineering is going to look very different by the end of 2026." Mental barriers about complex codebases will "come crashing down... skill issue."
+Stake: researcher / open-models advocate (Ai2 at time of writing); low commercial stake.

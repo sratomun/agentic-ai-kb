@@ -1,0 +1,28 @@
+---
+type: source
+source_type: arxiv
+depth: abstract
+auto: true
+title: "Evaluating Small Language Models for Agentic On-Farm Decision Support Systems"
+authors: Enhong Liu et al.
+url: https://arxiv.org/abs/2512.14043v1
+date: 2025-12-16
+score: 10
+primary: cs.AI
+tags: [arxiv, auto-ingested, small-language-models, llm-as-judge, post-training, text-to-sql]
+---
+
+# Evaluating Small Language Models for Agentic On-Farm Decision Support Systems
+
+**arXiv:** [2512.14043v1](https://arxiv.org/abs/2512.14043v1) · 2025-12-16 · cs.AI
+**Authors:** Enhong Liu et al.
+
+> Auto-ingested from abstract (not full-text). Concept/entity links are keyword-derived.
+
+## Abstract
+Large Language Models (LLM) hold potential to support dairy scholars and farmers by supporting decision-making and broadening access to knowledge for stakeholders with limited technical expertise. However, the substantial computational demand restricts access to LLM almost exclusively through cloud-based service, which makes LLM-based decision support tools impractical for dairy farming. To address this gap, lightweight alternatives capable of running locally on farm hardware are required. In this work, we benchmarked 20 open-source Small Language Models (SLM) available on HuggingFace under farm-realistic computing constraints. Building on our prior work, we developed an agentic AI system that integrates five task-specific agents: literature search, web search, SQL database interaction, NoSQL database interaction, and graph generation following predictive models. Evaluation was conducted in two phases. In the first phase, five test questions were used for the initial screening to identify models capable of following basic dairy-related instructions and performing reliably in a compute-constrained environment. Models that passed this preliminary stage were then evaluated using 30 questions (five per task category mentioned above, plus one category addressing integrity and misconduct) in phase two. In results, Qwen-4B achieved superior performance across most of task categories, although showed unstable effectiveness in NoSQL database interactions through PySpark. To our knowledge, this is the first work explicitly evaluating the feasibility of SLM as engines for dairy farming decision-making, with central emphases on privacy and computational efficiency. While results highlight the promise of SLM-assisted tools for practical deployment in dairy farming, challenges remain, and fine-tuning is still needed to refine SLM performance in dairy-specific questions.
+
+## Graph
+- **Concepts:** [[small-language-models|Small Language Models]] · [[llm-as-judge]] · [[post-training]] · [[text-to-sql]]
+- **Entities:** [[qwen]]
+- **Census record:** `raw/arxiv/2025-census/census-2025.jsonl` (id 2512.14043v1)
